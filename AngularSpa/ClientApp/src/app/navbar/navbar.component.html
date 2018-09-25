@@ -1,0 +1,13 @@
+
+<mat-toolbar color="primary">
+    <span>My App</span>
+    <span class="nav-right"></span>
+
+    <mat-form-field class="example-full-width">
+        <input matInput color="primary" value="">
+    </mat-form-field>
+
+    <span class="nav-right"></span>
+    <button *ngIf="!isLoggedIn()" mat-button (click)="login()">Login</button>
+    <button *ngIf="isLoggedIn()" mat-button (click)="logout()">Logout</button>
+</mat-toolbar>

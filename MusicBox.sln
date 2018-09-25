@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicBox", "MusicBox\MusicBox.csproj", "{7D3609DD-2947-4D78-B711-6230E1BDCDE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthServer", "AuthServer\AuthServer.csproj", "{AF345A05-EF1C-4AF6-8FF6-E39070649A90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularSpa", "AngularSpa\AngularSpa.csproj", "{D0233DA7-CF07-40F8-9227-A714664E746A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D3609DD-2947-4D78-B711-6230E1BDCDE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D3609DD-2947-4D78-B711-6230E1BDCDE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D3609DD-2947-4D78-B711-6230E1BDCDE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D3609DD-2947-4D78-B711-6230E1BDCDE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF345A05-EF1C-4AF6-8FF6-E39070649A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF345A05-EF1C-4AF6-8FF6-E39070649A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF345A05-EF1C-4AF6-8FF6-E39070649A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF345A05-EF1C-4AF6-8FF6-E39070649A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0233DA7-CF07-40F8-9227-A714664E746A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0233DA7-CF07-40F8-9227-A714664E746A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0233DA7-CF07-40F8-9227-A714664E746A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0233DA7-CF07-40F8-9227-A714664E746A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB6C6FAC-A224-4E77-AC2D-624C90CEC956}
+	EndGlobalSection
+EndGlobal
